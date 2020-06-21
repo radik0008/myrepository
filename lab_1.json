@@ -1,0 +1,52 @@
+[
+    {
+    	"url": "https://localhost:44385/api/num/1234567",
+        "response": "Один миллион двести тридцать четыре тысячи пятьсот шестьдесят семь",
+        "method": "GET"
+    },
+    {
+    	"url": "https://localhost:44377/api/num/742",
+        "response": "Семьсот сорок два",
+        "method": "GET"
+    },
+    {
+    	"url": "https://localhost:44385/api/equation?a=1&b=-6&c=9",
+        "response": 3,
+        "method": "GET"
+    },
+    {
+    	"url": "https://localhost:44385/api/equation?a=1&b=-4&c=4",
+        "response": 2,
+        "method": "GET"
+    },
+    {   
+        "url": "https://localhost:44385/api/fib/7",
+        "response": 13,
+        "method": "GET"
+    },
+    {
+    	"url": "https://localhost:44385/api/fib/51",
+        "response": 20365011074,
+        "method": "GET"
+    },
+    {
+    	"url": "https://localhost:44385/api/region/72",
+        "response": "Тюменская область",
+        "method": "GET"
+    },
+    {
+    	"url": "https://localhost:44385/api/region/15",
+        "response": "Республика Северная Осетия - Алания",
+        "method": "GET"
+    },
+    {
+    	"url": "https://localhost:44385/api/day?date=12.12.2028",
+        "response": "вторник",
+        "method": "GET"
+    },
+    {
+    	"url": "https://localhost:44385/api/day?date=07.05.2020",
+        "response": "четверг",
+        "method": "GET"
+    }
+]
