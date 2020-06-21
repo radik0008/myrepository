@@ -1,0 +1,24 @@
+{
+  "name": "lab4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "npm up": "node server.js",
+    "devstart": "nodemon node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "pg": "^8.0.3",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "express-promise-router": "^3.0.3",
+    "husky": "^4.2.5",
+    "nodemon": "^2.0.3"
+  }
+}
